@@ -1,0 +1,101 @@
+{
+  "config": {
+    "adapter": [],
+    "data": "{\"username\":\"admin\",\"password\":\"admin\"}",
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json"
+    },
+    "maxBodyLength": -1,
+    "maxContentLength": -1,
+    "method": "post",
+    "timeout": 0,
+    "transformRequest": [[]],
+    "transformResponse": [[]],
+    "transitional": {
+      "clarifyTimeoutError": false,
+      "forcedJSONParsing": true,
+      "silentJSONParsing": true
+    },
+    "url": "https://api.comride.com/api/admin/login",
+    "validateStatus": [],
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN"
+  },
+  "data": {
+    "data": {
+      "access-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwiaWF0IjoxNjMxODkyNDEzLCJleHAiOjE2MzE5Nzg4MTN9.0BaYPPIn20_IavkdFTdInnP8eh-PK1d_k0m0InWLmTc",
+      "id": 1
+    },
+    "message": "Login Success",
+    "status": "success"
+  },
+  "headers": {
+    "connection": "keep-alive",
+    "content-length": "277",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Fri, 17 Sep 2021 15:26:53 GMT",
+    "etag": "W/\"115-nx5bSA5i6b5y/IpsY9usG/VyxsU\"",
+    "server": "nginx/1.18.0 (Ubuntu)",
+    "vary": "Origin",
+    "x-powered-by": "Express"
+  },
+  "request": {
+    "DONE": 4,
+    "HEADERS_RECEIVED": 2,
+    "LOADING": 3,
+    "OPENED": 1,
+    "UNSENT": 0,
+    "_aborted": false,
+    "_hasError": false,
+    "_headers": {
+      "accept": "application/json, text/plain, */*",
+      "content-type": "application/json"
+    },
+    "_incrementalEvents": false,
+    "_lowerCaseResponseHeaders": {
+      "connection": "keep-alive",
+      "content-length": "277",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Fri, 17 Sep 2021 15:26:53 GMT",
+      "etag": "W/\"115-nx5bSA5i6b5y/IpsY9usG/VyxsU\"",
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "vary": "Origin",
+      "x-powered-by": "Express"
+    },
+    "_method": "POST",
+    "_perfKey": "network_XMLHttpRequest_https://api.comride.com/api/admin/login",
+    "_performanceLogger": {
+      "_closed": false,
+      "_extras": [],
+      "_pointExtras": [],
+      "_points": [],
+      "_timespans": []
+    },
+    "_requestId": null,
+    "_response": "{\"status\":\"success\",\"data\":{\"id\":1,\"access-token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwiaWF0IjoxNjMxODkyNDEzLCJleHAiOjE2MzE5Nzg4MTN9.0BaYPPIn20_IavkdFTdInnP8eh-PK1d_k0m0InWLmTc\"},\"message\":\"Login Success\"}",
+    "_responseType": "",
+    "_sent": true,
+    "_subscriptions": [],
+    "_timedOut": false,
+    "_trackingName": "unknown",
+    "_url": "https://api.comride.com/api/admin/login",
+    "readyState": 4,
+    "responseHeaders": {
+      "Connection": "keep-alive",
+      "Content-Length": "277",
+      "Content-Type": "application/json; charset=utf-8",
+      "Date": "Fri, 17 Sep 2021 15:26:53 GMT",
+      "ETag": "W/\"115-nx5bSA5i6b5y/IpsY9usG/VyxsU\"",
+      "Server": "nginx/1.18.0 (Ubuntu)",
+      "Vary": "Origin",
+      "X-Powered-By": "Express"
+    },
+    "responseURL": "https://api.comride.com/api/admin/login",
+    "status": 200,
+    "timeout": 0,
+    "upload": {},
+    "withCredentials": true
+  },
+  "status": 200
+}
