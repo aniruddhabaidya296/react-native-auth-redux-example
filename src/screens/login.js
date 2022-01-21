@@ -109,7 +109,6 @@ const styles = StyleSheet.create({
   },
   titleText: {
     color: COLORS.whiteDark,
-    fontFamily: 'Poppins-SemiBold',
     fontSize: SizeConfig.blockHeight * 3.8,
     marginVertical: SizeConfig.blockHeight * 3,
   },
@@ -143,7 +142,6 @@ const styles = StyleSheet.create({
   },
   continueButtonText: {
     color: COLORS.whiteDark,
-    fontFamily: 'Poppins-Bold',
     fontSize: SizeConfig.blockHeight * 2.2,
   },
   footerContainer: {
@@ -152,7 +150,6 @@ const styles = StyleSheet.create({
   },
   footerText: {
     color: COLORS.whiteDark,
-    fontFamily: 'Poppins-Medium',
     fontSize: SizeConfig.blockHeight * 2.1,
   },
   appLogoImage: {
